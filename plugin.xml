@@ -21,14 +21,14 @@
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="phoneinfoplugin">
                 <param name="android-package" 
-                       value="com.miky.phonegap.PhoneInfoPlugin"/>
+                       value="com.miguelalonso.phonegap.PhoneInfoPlugin"/>
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
            <uses-permission android:name="android.permission.READ_PHONE_STATE" />
         </config-file>
 
-        <source-file src="src/android/com/miguelalonso/phonegap/PhoneInfoPlugin.java" 
-                     target-dir="src/com/miguelalonso/phonegap" />      
+        <source-file src="src/android/com/miky/phonegap/PhoneInfoPlugin.java" 
+                     target-dir="src/com/miky/phonegap" />      
      </platform>          
 </plugin>
