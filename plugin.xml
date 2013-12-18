@@ -12,7 +12,7 @@
     <js-module src="www/phoneInfoPlugin.js"  name="phoneinfoplugin">
         <clobbers target="window.phone" />
     </js-module>
-    <js-module src="www/PhoneInfo.js"  name="phoneinfo">
+    <js-module src="www/PhoneInfo.js"  name="phoneinfoplugin">
         <clobbers target="PhoneInfo" />
     </js-module>
 
